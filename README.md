@@ -87,7 +87,7 @@ $ pip install awscli
 $ pip install gcloud
 
 ---> For Azure:
-$ pip install azure
+$ pip install azure-cli
 
 ```
 Once you have the CLI tools setup, log into each cloud provider's CLI:
@@ -99,6 +99,7 @@ $ aws configure
 $ gcloud auth application-default login
 
 ---> For Azure:
+# Prior to executing this, it might be necessary to adjust the PATH, as the default location for 'az' resides in ~/.local/bin
 $ az login
 
 ---> For IBM Cloud:
